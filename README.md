@@ -10,6 +10,10 @@ gcloud auth list
 gcloud config list project
 export PROJECT_ID=$DEVSHELL_PROJECT_ID
 ```
+- clone this repository
+```
+git clone https://github.com/bmullan-google/gcp-tf-starter
+```
 - Edit the terrafrom.tfvars file and replace values with your values
 - run terraform with the following commands
 ```
